@@ -28,5 +28,5 @@
 
 /* CSS Modules feature */
 .nav a:global(.active) {
-  background-color: var(--color-dark--0);
+  background-color: rgb(226 232 240);
 }

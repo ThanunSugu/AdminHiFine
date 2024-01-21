@@ -4,4 +4,5 @@
   overscroll-behavior-y: none;
   display: flex;
   position: relative;
+  color: black;
 }

@@ -40,7 +40,14 @@ function DataTable() {
 
   return (
     // <div className={styles.datatableContainer}>
+
     <div className="container mx-auto px-4 box-border flex flex-col text-center text-3xl text-black">
+      <div type="horizontal" className="flex justify-between ">
+        <h1>ALL Data</h1>
+        <p>Filter / Sort</p>
+      </div>
+      <br />
+
       {/* <CreateButton /> */}
       <table className="border border-separate border-spacing-2 border-collapse border-slate-500 ">
         <thead>
